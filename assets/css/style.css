@@ -67,8 +67,13 @@
     line-height: 27px;
     letter-spacing: 0em;
     text-align: left;
-    color: #000000;
+    color: black;
     opacity: 0.6;
+    cursor: pointer;
+}
+
+.heading-para:hover {
+    color: #000000;
 }
 
 .input {
@@ -185,7 +190,7 @@ nav {
 
 }
 
-@media (max-width : 992px) {
+@media (max-width : 991.9px) {
     .row {
         flex-direction: column-reverse;
     }
@@ -242,6 +247,11 @@ nav {
     text-align: left;
     padding-right: 20px;
     color: #1A9FFF;
+    cursor: pointer;
+}
+
+.post:hover {
+    color: black;
 }
 
 .img-2 {
@@ -276,6 +286,10 @@ nav {
     padding-top: 80px;
 }
 
+.radio {
+    cursor: pointer;
+}
+
 .inpu-box {
     width: 20px;
     height: 20px;
@@ -286,6 +300,7 @@ nav {
     justify-content: center;
     background-color: #4c8e682b;
     border: none;
+    cursor: pointer;
 }
 
 input [type="radio"]:checked~.inpu-box {
