@@ -19,9 +19,9 @@
 .row {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin-left: -12px;
     margin-right: -12px;
-    flex-wrap: wrap;
 
 }
 
@@ -238,6 +238,14 @@ nav {
     padding-left: 20px;
 }
 
+@media (min-width: 991.9px) {
+    .changes {
+        display: flex;
+        flex-direction: column;
+        max-width: 290px;
+    }
+}
+
 .post {
     font-family: Poppins;
     font-size: 18px;
@@ -384,6 +392,12 @@ input [type="radio"]:checked~.inpu-box {
 
 }
 
+@media (min-width: 991.9px) {
+    .slider {
+        display: none !important;
+    }
+}
+
 @media (min-width:992px) {
     .seacrh-img {
         display: none;
@@ -397,12 +411,6 @@ input [type="radio"]:checked~.inpu-box {
     .on-lg {
         display: none;
     }
-
-    .slider {
-        display: none;
-    }
-
-
 }
 
 @media (max-width:991.9px) {
@@ -417,6 +425,7 @@ input [type="radio"]:checked~.inpu-box {
         align-items: center;
         justify-content: center;
         display: flex;
+        width: 108px;
         flex-direction: column;
     }
 
@@ -496,4 +505,24 @@ input [type="radio"]:checked~.inpu-box {
 } */
 .message:hover {
     transform: translateY(10%);
+}
+
+.slider {
+    display: flex;
+    overflow-x: scroll;
+    gap: 40px;
+}
+
+.padding-40 {
+    padding: 30px 60px;
+}
+
+label[for="radio-btn"] {
+    width: 100%;
+    border: none;
+}
+
+label[for="radio_btn"] {
+    width: 100%;
+    border: none;
 }
