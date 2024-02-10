@@ -209,7 +209,9 @@ nav {
     padding-top: 10px;
 }
 
-
+.MT-15 {
+    margin-top: 15px;
+}
 
 .Search-box {
     width: 100%;
@@ -217,7 +219,7 @@ nav {
     height: 43px;
     border-radius: 25.5px;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 .Search {
@@ -444,6 +446,14 @@ input [type="radio"]:checked~.inpu-box {
         margin: 0 -27px;
     }
 
+    .copyright {
+        display: none;
+    }
+
+    .pt-80 {
+        padding-top: 40px;
+    }
+
 }
 
 .btn-1 {
@@ -510,11 +520,11 @@ input [type="radio"]:checked~.inpu-box {
 .slider {
     display: flex;
     overflow-x: scroll;
-    gap: 40px;
+    gap: 30px;
 }
 
 .padding-40 {
-    padding: 30px 60px;
+    padding: 30px 50px;
 }
 
 label[for="radio-btn"] {
